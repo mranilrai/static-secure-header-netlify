@@ -2,3 +2,8 @@
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   X-Frame-Options: SAMEORIGIN
+  X-DNS-Prefetch-Control: on
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Content-Security-Policy: frame-ancestors
+  Referrer-Policy: origin-when-cross-origin
