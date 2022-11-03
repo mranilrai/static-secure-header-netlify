@@ -1,19 +1,10 @@
-name: Site Reliability
-on: 
-  workflow_dispatch:
-  push:
-    branches: 
-      - main
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '0 4 * * *'
+name: CI
+on: [push]
+
 jobs:
-  crawl_for_broken_links:
+  build:
     runs-on: ubuntu-latest
-    name: Broken-Links-Crawler
     steps:
-    - name: Debug Action
-      uses: hmarr/debug-action@v1.0.0
     - name: Checking links
       id: checking
       uses: ScholliYT/Broken-Links-Crawler-Action@v3
