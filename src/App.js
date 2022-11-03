@@ -11,13 +11,15 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://docs.badger.com/vaults/user-guides/vault-user-guides-ethereum/convex-pbtc"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
         </a>
       </header>
+
+
     </div>
   );
 }
