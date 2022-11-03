@@ -10,7 +10,7 @@ jobs:
       uses: ScholliYT/Broken-Links-Crawler-Action@v3
       with:
         website_url: 'https://docs.badger.com/vaults/user-guides'
-        exclude_url_prefix: 'mailto:,https://app.sushi.com'
+        exclude_url_prefix: 'mailto:,https://app.sushi.com,https://www.kraken.com'
         verbose: 'true'
         max_retry_time: 30
         max_retries: 5
