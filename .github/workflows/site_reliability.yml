@@ -9,7 +9,7 @@ jobs:
       id: checking
       uses: ScholliYT/Broken-Links-Crawler-Action@v3
       with:
-        website_url: 'https://cute-valkyrie-f9ee5a.netlify.app'
+        website_url: 'https://docs.badger.com'
         exclude_url_prefix: 'mailto:'
         verbose: 'true'
         max_retry_time: 30
